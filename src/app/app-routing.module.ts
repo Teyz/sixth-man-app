@@ -21,6 +21,11 @@ const routes: Routes = [
     loadChildren: () => import('./modules/general/login/signin.module')
       .then(mod => mod.SigninModule)
   },
+  {
+    path: 'register',
+    loadChildren: () => import('./modules/general/register/register.module')
+      .then(mod => mod.RegisterModule)
+  },
   { path: '**', component: NotFoundComponent }
 ];
 
