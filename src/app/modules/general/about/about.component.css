@@ -1,0 +1,150 @@
+.actualites_bg {
+    background: linear-gradient(transparent, black), url("../../../../assets/img/actualites_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+}
+
+h1 {
+    color: #7D5FFF;
+    font-size: 31px;
+    font-family: "Montserrat Semi-Bold";
+    position: relative;
+    padding-left: 15px;
+}
+
+h2 {
+    color: #7D5FFF;
+    font-size: 25px;
+    font-family: "Montserrat Semi-Bold";
+    position: relative;
+    padding: 16px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat Bold";
+    position: relative;
+    padding: 16px;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat Bold";
+}
+
+.member_infos{
+    padding-left: 0;
+}
+
+.member_infos li {
+    display: inline;
+    margin: 16px;
+}
+
+.attacks_stats{
+    list-style: none;
+    padding-left: 0;
+}
+
+.attacks_stats li{
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    ul {
+        text-align: center;
+    }
+
+    .operator_img{
+        width: 50%;
+    }
+
+    .operator_img_content{
+        text-align: center !important;
+    }
+}
+
+.operators_bg {
+    background: linear-gradient(black, transparent, black), url("../../../../assets/img/stats_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+}
+
+.operators_bg li{
+    color: #7D5FFF;
+    font-size: 25px;
+    font-family: "Montserrat Bold";
+}
+
+.operators_bg li img{
+    margin-right: 16px;
+}
+
+.nav{
+    padding-left: 16px;
+}
+
+.solo li{
+    color: white !important;
+    font-size: 25px;
+    font-family: "Montserrat Regular";
+}
+
+.solo span{
+    display: inline-block;
+}
+
+.gadget{
+    color: white !important;
+    font-size: 25px;
+    font-family: "Montserrat Regular";
+}
+
+.gadget_name{
+    color: #7D5FFF;;
+    font-size: 25px;
+    font-family: "Montserrat Bold";
+}
+
+.gadget_score{
+    color: #7D5FFF;;
+    font-size: 30px;
+    font-family: "Montserrat Bold";
+}
+
+.all_operators{
+    width: 100%;
+}
+
+.all_operators li img{
+    margin: 0;
+}
+
+.join_bg {
+    background: linear-gradient(black, transparent, black), url("../../../../assets/img/stats_join.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 500px;
+}
+
+.go_premium{
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat Semi-Bold";
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #7D5FFF;
+    width: 192px;
+    height: 54px;
+}
+
+.go_premium:hover{
+    color: white;
+    background-color: #7D5FFF;
+}

@@ -1,0 +1,95 @@
+.navbar{
+  position: absolute;
+  width: 100%;
+  padding-left: 46px;
+}
+a{
+  font-family: "Montserrat Semi-Bold";
+  font-size: 25px;
+  color: #7D5FFF;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #7D5FFF;
+}
+
+.form-inline{
+  position: absolute;
+  right: 16px;
+  padding-right: 46px;
+}
+
+.form-inline i{
+  color: #7D5FFF;
+  padding-right: 5px;
+}
+
+.form-inline span{
+  color: #7D5FFF;
+  font-family: "Montserrat Semi-Bold";
+  font-size: 25px;
+}
+
+.form-inline button{
+  margin-right: 16px;
+}
+
+.navbar-toggler{
+  color: #7D5FFF;
+}
+
+.btn-outline-success{
+  font-family: "Montserrat Semi-Bold";
+  border: 2px solid #7D5FFF;
+  color: #7D5FFF;
+  border-color: #7D5FFF;
+}
+.btn-outline-success:hover{
+  font-family: "Montserrat Semi-Bold";
+  color: white;
+  background-color: #7D5FFF;
+}
+
+@media screen and (max-width: 640px) {
+  .form-inline{
+    position: absolute;
+    left: 16px;
+    padding-right: 0;
+  }
+
+  .navbar-toggler-icon{
+    background-color: #7D5FFF;
+    color: white;
+  }
+
+  .navbar{
+    position: absolute;
+    width: 100%;
+    padding-left: 16px;
+  }
+}
+
+h5{
+  color: white;
+  font-size: 25px;
+  font-family: "Montserrat Bold";
+}
+
+.list-unstyled a{
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat Regular";
+}
+
+.list-unstyled i{
+  color: #FFFFFF;
+  display: block;
+  background-color: rgba(125, 95, 255, 1);
+  border-radius:60px;
+  width:60px;
+  height:60px;
+  text-align:center;
+  margin:10px;
+  line-height: 65px;
+}

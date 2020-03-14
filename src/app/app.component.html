@@ -1,0 +1,97 @@
+<div class="app">
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/img/logo.png" width="207" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <ul class="navbar-nav mr-auto navbar-right">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/actualites">ACTUALITES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SUPPORT</a>
+          </li>
+        </ul> -->
+        <form class="form-inline my-2 my-lg-0">
+          <a class="nav-link" routerLink="/">HOME<span class="sr-only">(current)</span></a>
+          <a class="nav-link" routerLink="/actualites">ACTUALITES</a>
+          <a class="nav-link" href="#">SUPPORT</a>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-star"></i>PREMIUM</button>
+          <span><i class="fas fa-user fa-1x"></i>SE CONNECTER</span>
+        </form>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-3 mt-md-0 mt-3 d-flex align-items-center justify-content-center">
+        <img src="../assets/img/logo_min.png" alt="">
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3 d-flex align-items-center justify-content-center">
+        <ul class="list-unstyled">
+          <li>
+            <h5 class="text-uppercase">SIXTH EYE</h5>
+          </li>
+          <li>
+            <a href="#!">HOME</a>
+          </li>
+          <li>
+            <a href="#!">S'INSCRIRE / SE CONNECTER</a>
+          </li>
+          <li>
+            <a href="#!">GET PREMIUM</a>
+          </li>
+          <li>
+            <a href="#!">MENTIONS LÉGALES</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3 d-flex align-items-center justify-content-center">
+        <ul class="list-unstyled">
+          <li>
+            <h5 class="text-uppercase">MORE</h5>
+          </li>
+          <li>
+            <a href="#!">SUPPORT</a>
+          </li>
+          <li>
+            <a href="#!">CGV2</a>
+          </li>
+          <li>
+            <a href="#!">CGU</a>
+          </li>
+          <li>
+            <a href="#!">MENTIONS LÉGALES</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3 d-flex align-items-center justify-content-center">
+        <ul class="list-unstyled">
+          <li>
+            <i class="fab fa-twitter fa-2x"></i>
+          </li>
+          <li>
+            <i class="fab fa-discord fa-2x"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>

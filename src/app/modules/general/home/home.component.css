@@ -1,0 +1,313 @@
+.home_bg {
+    background: linear-gradient(transparent, black), url("../../../../assets/img/bg_home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 950px;
+}
+
+h1 {
+    color: #7D5FFF;
+    font-size: 31px;
+    font-family: "Montserrat Semi-Bold";
+    position: relative;
+}
+
+.fort {
+    font-size: 80px;
+    font-family: "Montserrat Bold";
+}
+
+.form-control {
+    height: 60px;
+    border-radius: 10px;
+    color: #707070;
+    font-family: 'Montserrat SemiBold Italic';
+    font-size: 25px;
+    border: 0px white solid;
+    box-shadow: none;
+}
+
+.input-group-text {
+    display: flex !important;
+    color: #C6C6C6;
+    background-color: #fff;
+    border: 0px white solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-group-text.active {
+    color: #7D5FFF !important;
+}
+
+.home_what {
+    background: linear-gradient(black, transparent), url("../../../../assets/img/bg_what.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7D5FFF;
+    height: 750px;
+    max-height: 1293px;
+    border-bottom-left-radius: 100% 20%;
+}
+
+span.strong {
+    color: #7D5FFF;
+    font-size: 30px;
+    font-family: "Montserrat Bold";
+}
+
+span.lite {
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-family: "Montserrat Bold";
+}
+
+.data {
+    margin: 50px;
+}
+
+h2 {
+    color: #7D5FFF;
+    font-size: 30px;
+    font-family: "Montserrat Bold";
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat Light";
+}
+
+.go_premium {
+    color: #7D5FFF;
+    font-size: 20px;
+    font-family: "Montserrat Semi-Bold";
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #7D5FFF;
+    width: 192px;
+    height: 54px;
+}
+
+.home_services {
+    background-color: #7D5FFF;
+    height: 700px;
+}
+
+.home_services h2 {
+    color: white;
+}
+
+.home_services img {
+    width: 80%;
+}
+
+.gaming {
+    margin: 20px 0 20px 0;
+}
+
+.gaming .col-md-6 {
+    padding-left: 0;
+}
+
+.home_reassurance {
+    padding: 0;
+}
+
+.service_1 {
+    background: url("../../../../assets/img/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 100%;
+    height: 950px;
+}
+
+.service_2 {
+    background: url("../../../../assets/img/2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 100%;
+    height: 950px;
+}
+
+.service_3 {
+    background: url("../../../../assets/img/3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 100%;
+    height: 950px;
+}
+
+.rectangle {
+    position: relative;
+    background-color: rgba(125, 95, 255, 0.85);
+    width: 480px;
+    height: 722px;
+}
+
+.number {
+    color: white;
+    font-size: 80px;
+    font-family: "Montserrat Bold";
+    position: absolute;
+    /* postulat de départ */
+    top: 25%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.title {
+    color: white;
+    font-size: 35px;
+    font-family: "Montserrat Bold";
+    position: absolute;
+    /* postulat de départ */
+    top: 40%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.texte {
+    position: absolute;
+    /* postulat de départ */
+    top: 50%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.icon {
+    color: white;
+    position: absolute;
+    /* postulat de départ */
+    top: 70%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.home_ready {
+    background: url("../../../../assets/img/bg_ready.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 100%;
+    height: 1400px;
+    position: relative;
+}
+
+.ready {
+    width: 100%;
+    height: 950px;
+}
+
+.home_ready .title {
+    color: #7D5FFF;
+    font-size: 60px;
+    font-family: "Montserrat Bold";
+    position: absolute;
+    /* postulat de départ */
+    top: 10%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.home_ready .logo {
+    position: absolute;
+    /* postulat de départ */
+    top: 25%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.home_ready .texte {
+    max-width: 550px;
+    text-align: center;
+    position: absolute;
+    /* postulat de départ */
+    font-size: 25px;
+    font-family: "Montserrat Semi-Bold";
+    top: 40%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.home_ready .icon {
+    position: absolute;
+    /* postulat de départ */
+    top: 55%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+@media screen and (max-width: 640px) {
+    .home_bg {
+        height: 750px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .fort {
+        font-size: 40px;
+        text-align: center;
+    }
+    .input-group {
+        width: auto !important;
+    }
+}
+
+.radio_item {
+    display: none !important;
+}
+
+.label_item {
+    color: #C6C6C6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.radio_item:checked+label {
+    color: #7D5FFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-group{
+    background-color: white !important;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
