@@ -297,7 +297,7 @@ p {
     border-bottom-left-radius: 10px;
 }
 
-.input-group{
+.input-group {
     background-color: white !important;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -305,7 +305,16 @@ p {
     border-bottom-left-radius: 10px;
 }
 
-.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text{
+.input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-group-append button {
+    background-color: white;
+    border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
