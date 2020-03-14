@@ -17,8 +17,8 @@ const routes: Routes = [
       .then(mod => mod.AboutModule)
   },
   {
-    path: 'signin',
-    loadChildren: () => import('./modules/general/signin/signin.module')
+    path: 'login',
+    loadChildren: () => import('./modules/general/login/signin.module')
       .then(mod => mod.SigninModule)
   },
   { path: '**', component: NotFoundComponent }
