@@ -26,6 +26,11 @@ const routes: Routes = [
     loadChildren: () => import('./modules/general/register/register.module')
       .then(mod => mod.RegisterModule)
   },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./modules/general/dashboard/dashboard.module')
+      .then(mod => mod.DashboardModule)
+  },
   { path: '**', component: NotFoundComponent }
 ];
 
