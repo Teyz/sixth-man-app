@@ -1,26 +1,35 @@
 <section class="container-fluid actualites_bg d-flex align-items-center justify-content-center">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 mt-md-0 mt-12">
-                <h1>SE CONNECTER</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="wrapper fadeInDown">
-                <div id="formContent">
-                  <div class="fadeIn first">
-                    <img src="../../../../assets/img/favicon.png" id="icon" alt="User Icon" />
-                  </div>
-                  <form method="GET">
-                    <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-                    <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
-                    <input type="submit" class="fadeIn fourth" value="Log In">
-                  </form>
-                  <div id="formFooter">
-                    <a class="underlineHover" routerLink="/">Forgot Password ?</a>
-                  </div>
-                </div>
-              </div>
-        </div>
+  <div class="container-fluid" style="padding-top: 100px;">
+    <div class="row">
+      <div class="col-md-12 mt-md-0 mt-12">
+        <h1>DONT FORGET TO REGISTER IF YOU WANT THE BEST PERFORMANCE IN THE WEB
+        </h1>
+      </div>
     </div>
+    <div class="row">
+      <ul class="nav navbar navbar-left d-flex d-inline-flex align-items-center justify-content-center member_infos">
+        <li class="nav-item d-inline-flex  align-items-center mr-2"><a routerLink="/login"><span>LOGIN</span></a></li>
+        <li class="nav-item d-inline-flex  align-items-center mr-2"><a class="active"><span>REGISTER</span></a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <div class="fadeIn first">
+            <img src="../../../../assets/img/favicon.png" id="icon" alt="User Icon" />
+          </div>
+          <form method="GET">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Username">
+            <input type="text" id="email" class="fadeIn second" name="email" placeholder="Email">
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="Confirm Password">
+            <input type="submit" class="fadeIn fourth" value="Register">
+          </form>
+          <div id="formFooter">
+            <a class="underlineHover" routerLink="/login">Alread register ?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

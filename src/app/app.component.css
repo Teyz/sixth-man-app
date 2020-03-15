@@ -14,12 +14,6 @@ a:hover{
   color: #7D5FFF;
 }
 
-.form-inline{
-  position: absolute;
-  right: 16px;
-  padding-right: 46px;
-}
-
 .form-inline i{
   color: #7D5FFF;
   padding-right: 5px;
@@ -51,12 +45,12 @@ a:hover{
   background-color: #7D5FFF;
 }
 
+#navbarSupportedContent{
+  position: absolute;
+  right: 46px;
+}
+
 @media screen and (max-width: 640px) {
-  .form-inline{
-    position: absolute;
-    left: 16px;
-    padding-right: 0;
-  }
 
   .navbar-toggler-icon{
     background-color: #7D5FFF;
@@ -67,6 +61,13 @@ a:hover{
     position: absolute;
     width: 100%;
     padding-left: 16px;
+  }
+
+  #navbarSupportedContent{
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative !important;
+    right: 0 !important;
   }
 }
 

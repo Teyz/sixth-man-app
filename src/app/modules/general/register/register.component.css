@@ -3,7 +3,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
-    height: 730px;
+    height: auto;
+}
+
+.nav-item a{
+    color: white;
+    font-size: 31px;
+    font-family: "Montserrat Semi-Bold";
+    position: relative;
+    padding-left: 15px;
+}
+
+.nav-item:first-child{
+    border-right: 5px solid white;
+    padding-right: 30px;
+}
+
+.active{
+    font-family: "Montserrat Bold" !important;
+    color: #7D5FFF !important;
 }
 
 h1 {
@@ -12,6 +30,19 @@ h1 {
     font-family: "Montserrat Semi-Bold";
     position: relative;
     padding-left: 15px;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        text-align: center;
+    }
+
+    .nav-item:first-child{
+        padding-right: 0;
+        border-right: none;
+        border-bottom: 5px solid white;
+        margin-right: 0;
+    }
 }
 
 a {
@@ -276,6 +307,8 @@ input[type=text]:placeholder {
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
     animation-delay: 1s;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 /* Simple CSS3 Fade-in Animation */
