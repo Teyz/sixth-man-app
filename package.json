@@ -3,7 +3,7 @@
   "version": "9.0.5",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -60,7 +60,7 @@
     "typescript": "3.7.5"
   },
   "engines": {
-    "node": "12.11.1",
+    "node": "12.16.x",
     "npm": "6.x"
   }
 }
