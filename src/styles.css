@@ -20,6 +20,9 @@
   src: url('assets/fonts/MONTSERRAT-LIGHT.TTF');
 }
 
+::selection { background-color: #7D5FFF; color: white; }
+::-moz-selection { background-color: #7D5FFF; color: white; }
+
 /* Scrollbar */
 ::-webkit-scrollbar-track
 {
