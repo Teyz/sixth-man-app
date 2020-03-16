@@ -12,9 +12,14 @@ const routes: Routes = [
       .then(mod => mod.ActualitesModule)
   },
   {
-    path: 'about',
-    loadChildren: () => import('./modules/general/about/about.module')
-      .then(mod => mod.AboutModule)
+    path: 'stats',
+    loadChildren: () => import('./modules/general/stats/stats.module')
+      .then(mod => mod.StatsModule)
+  },
+  {
+    path: 'compare',
+    loadChildren: () => import('./modules/general/compare/compare.module')
+      .then(mod => mod.CompareModule)
   },
   {
     path: 'login',
